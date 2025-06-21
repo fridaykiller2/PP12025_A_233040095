@@ -1,20 +1,23 @@
 package Pertemuan2;
 
 public class Node {
-	private int nilai;
+	private int data;
 	private Node next;
 	
-	// inisialisasi Node
-	public Node(int nilai) {
-		this.setNilai(nilai);
+	/** Inisialisasi atribut Node */
+	
+	public Node(int data) {
+		this.setData(data);
+	}
+	
+	/** setter & getter */
+
+	public int getData() {
+		return data;
 	}
 
-	public int getNilai() {
-		return nilai;
-	}
-
-	public void setNilai(int nilai) {
-		this.nilai = nilai;
+	public void setData(int data) {
+		this.data = data;
 	}
 
 	public Node getNext() {
@@ -25,6 +28,5 @@ public class Node {
 		this.next = next;
 	}
 	
-	// setter & getter
-
+	
 }

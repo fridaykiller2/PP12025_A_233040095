@@ -1,4 +1,4 @@
-package Pertemuan2;
+package Pertemuan1;
 
 public class NodeMain {
 	public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class NodeMain {
 		n4.setNext(n5);
 		
 		// menampilkan Node n1 & n2 dengan pointer p
-		Node p = n2;
+		Node p = n1;
 		while(p != null)
 		{
 			System.out.printf("%d", p.getNilai());
